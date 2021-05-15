@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess the number 🎲</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="game.js"></script>
+</head>
+
+<body class = "text-center">   
+    <nav class="navbar navbar-dark bg-dark">
+        <a class = "navbar-brand" href="#">Guess the number</a>
+    </nav>
+    <main>
+        <h1 class="banner p-5">Whats the Number? 😁</h1>
+        <div class = "form-group">
+            <input id="number-guess" class = "form-control form-control-lg" type="number", placeholder="Guess the number">
+        </div>
+        <div id = "best-score">
+            <!-- Part to show the Best Score -->
+        </div>
+        <div id="result">
+            <!-- Part of the inner HTML -->
+        </div>
+        <br>
+        <button type = "button", id = "number-submit", class = "btn btn-lg btn-primary">Guess</button>
+        <button type = "button", id = "restart-game", class = "btn btn-lg btn-light">Restart</button>
+
+        <div id="history">
+            <!-- Part of the inner HTML -->
+        </div>
+    </main>
+</body>
+</html>

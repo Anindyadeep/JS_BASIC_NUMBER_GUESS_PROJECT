@@ -1,0 +1,36 @@
+.banner {
+    color:#FFD23F;
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#number-guess, #result, #best-score, #history {
+    max-width: 700px;
+    max-height: 400px;
+    margin: 0 auto; 
+}
+
+#history {
+    margin-top: 16px;
+}
+
+#number-submit {
+    height: 60px;
+    width: 120px;
+    align-items: left;
+    display: inline-block;
+}
+
+#restart-game {
+    color: blueviolet;
+    height: 60px;
+    width: 120px;
+    align-items: left;
+    border: 2px solid #c944f1;
+}
+
+#restart-game:hover{
+    background-color: #aa64d8; /* Green */
+    color: white;
+
+}
